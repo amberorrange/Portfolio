@@ -1,6 +1,3 @@
-h1 {
-   
-}
 
 .navbar {
 
@@ -75,8 +72,8 @@ h1 {
 }
 
 #contact-form {
-    margin-left: 25%;
-    margin-right: 25%;   
+    margin-left: 15%;
+    margin-right: 15%;   
 
 }
 
@@ -86,4 +83,48 @@ h1 {
 
 label {
     margin-bottom: 10px;
+}
+
+.submit-btn {
+    border-radius: 20px;
+    border-width: 1px;
+    height: 35px;
+    width: 100px;
+}
+
+.submit-btn:hover {
+    opacity: .7;
+}
+
+
+
+
+
+/* Project */
+#Project {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project-div {
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#video-link {
+    color: black;
+    font-weight: bold;
+}
+
+
+#video-link:hover {
+    text-decoration: underline;
+}
+
+
+
+a {
+    text-decoration: none;
 }
