@@ -1,7 +1,28 @@
+/* Navbar */
 
-.navbar {
+.navbar-custom {
 
+    background-color: black;
+    opacity: .6;
 }
+
+
+.nav-link {
+    color: white;
+}
+
+
+.navbar-brand { 
+    color: white;
+    margin-left: 35px;
+}
+
+.navbar-nav {
+    margin-right: 35px;
+}
+
+
+
 
 
 
@@ -13,13 +34,13 @@
    margin-left: 15%;
    margin-right: 15%;
    margin-top: 200px;
-   margin-bottom: 200px;
+   margin-bottom: 150px;
 
 }
 
 #intro-pic {
     outline-color:white;
-    align-self: left;
+    /* align-self: left; */
 }
 
 
