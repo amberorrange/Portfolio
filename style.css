@@ -83,3 +83,7 @@ h1 {
 .form-group {
     margin-bottom: 20px;
 }
+
+label {
+    margin-bottom: 10px;
+}
