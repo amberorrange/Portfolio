@@ -20,24 +20,37 @@
 
 
 
+body {
+    background-color: #0B0C10;
+}
+
+
+
 
 
 #Name {
     font-family: Roboto;
     font-weight: 100;
     font-size: 70px;
+    color: white;
 }
 
 #Full-Stack {
     font-family: Roboto;
+    color: #66FCF1;
 }
 
 #resume-button{
     font-family: Roboto;
-    border-color: black;
+    border-color:#66FCF1;
     border-radius: 10px;
     font-size: 20px;
+    color: white;
     
+}
+
+#resume-button:hover {
+    color: #66FCF1;
 }
 
 
@@ -58,14 +71,14 @@
 
 .nav-link:hover {
     text-decoration: underline;
-    text-decoration-color: white;
-    color: white;
+    text-decoration-color: #66FCF1;
+    color:#66FCF1;
 }
 
 .navbar-brand:hover {
     text-decoration: underline;
-    text-decoration-color: white;
-    color: white;
+    text-decoration-color:#66FCF1;
+    color: #66FCF1;
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
 }
@@ -92,8 +105,7 @@
 }
 
 #intro-pic {
-    outline-color:white;
-    /* align-self: left; */
+  
 }
 
 
@@ -106,19 +118,19 @@
 
 /* Icons */
 .bi-github {
-    color: black;
+    color:white;
     font-size: 40px;  
 }
 
 .bi-linkedin {
     font-size: 40px;
-    color: black;
+    color: white;
     margin-left: 30px;
 }
 
 .bi-envelope {
     font-size: 40px;
-    color: black;
+    color: white;
     margin-left: 30px;
 } 
 
@@ -129,15 +141,18 @@
 }
 
 .bi-linkedin:hover {
-    opacity: .7;
+    opacity: .8;
+    color: #66FCF1;
 }
 
 .bi-envelope:hover {
-    opacity: .7;
+    opacity: .8;
+    color: #66FCF1;
 }
 
 .bi-github:hover {
-    opacity: .7;
+    opacity: .8;
+    color: #66FCF1;
 }
 
 
@@ -155,6 +170,7 @@
     margin-top: 30px;
     padding-top: 120px;
     font-family: Roboto;
+    color: white;
 
 }
 
@@ -169,8 +185,15 @@
     margin-bottom: 20px;
 }
 
+/* .form-control {
+    border-color:white;
+    border-width: 2px;
+    border-style: solid;
+} */
+
 label {
     margin-bottom: 10px;
+    color: white;
 }
 
 .submit-btn {
@@ -178,15 +201,19 @@ label {
     border-width: 1px;
     height: 35px;
     width: 100px;
+    color: white;
+    border-color:#66FCF1;
+    background: transparent;
 }
 
 .submit-btn:hover {
-    opacity: .7;
+    opacity: .8;
+    color: #66FCF1;
 }
 
 
 .form-control:focus{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(7, 0, 0, 0.6);
+    box-shadow: 0 1px 1px #1F2833 inset, 0 0 8px #1F2833;
     outline: 0 none;
 }
 
