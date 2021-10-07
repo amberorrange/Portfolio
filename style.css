@@ -46,13 +46,28 @@
 
 .navbar-custom {
 
-    background-color: transparent;
+    background-color: black;
     font-family: Roboto;
 }
 
 
 .nav-link {
     color: white;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
 }
 
 
@@ -62,24 +77,18 @@
 }
 
 .navbar-nav {
-    margin-right: 35px;
+    margin-right: 100px;
 }
 
 
 
-
-
-
-
-
-
 /* Homepage */
+
 #Home {
    margin-left: 15%;
    margin-right: 15%;
-   margin-top: 200px;
-   margin-bottom: 150px;
-
+   padding-top: 200px;
+   margin-bottom: 270px;
 }
 
 #intro-pic {
@@ -143,8 +152,10 @@
 
 #Contact {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 30px;
+    padding-top: 120px;
     font-family: Roboto;
+
 }
 
 #contact-form {
@@ -187,7 +198,8 @@ label {
 
 /* Project */
 #Project {
-    margin-top: 150px;
+    margin-top: 30px;
+    padding-top: 120px;
     margin-bottom: 50px;
     text-align: center;
     font-family: Roboto;
@@ -241,17 +253,17 @@ a {
 
 /* About Me */
 #about-me{
-    margin-top: 150px;
     margin-left: 15%;
     margin-right: 15%;
+   
 }
 
 #about-img {
-    margin-bottom: 30px;
     width: 100%;  
     border-radius: 5px;
     outline-color: rgba(0, 0, 0, 0.452);outline-style: solid;
     outline-width: 1px;
+    margin-bottom: 30px;
 }
 
 #about-header {
