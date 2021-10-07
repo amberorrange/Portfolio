@@ -12,15 +12,32 @@
 }
 
 
+@font-face {
+    font-family: Roboto;
+    src: url("Fonts/Roboto/Roboto-Italic.ttf");
+    font-weight: bold;
+}
+
+
 
 
 
 #Name {
     font-family: Roboto;
+    font-weight: 100;
+    font-size: 70px;
 }
 
 #Full-Stack {
     font-family: Roboto;
+}
+
+#resume-button{
+    font-family: Roboto;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    
 }
 
 
@@ -29,8 +46,7 @@
 
 .navbar-custom {
 
-    background-color: black;
-    opacity: .6;
+    background-color: transparent;
     font-family: Roboto;
 }
 
@@ -214,6 +230,13 @@ a {
     text-decoration: none;
 }
 
+.card-text {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+
 
 
 /* About Me */
@@ -236,3 +259,15 @@ a {
     margin-bottom: 50px;
     font-family: Roboto;
 }
+
+#about-para-1 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+#about-para-2 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
