@@ -185,11 +185,11 @@ body {
     margin-bottom: 20px;
 }
 
-/* .form-control {
+.form-control {
     border-color:white;
     border-width: 2px;
     border-style: solid;
-} */
+}
 
 label {
     margin-bottom: 10px;
@@ -198,7 +198,7 @@ label {
 
 .submit-btn {
     border-radius: 20px;
-    border-width: 1px;
+    border-width: 2px;
     height: 35px;
     width: 100px;
     color: white;
@@ -207,7 +207,6 @@ label {
 }
 
 .submit-btn:hover {
-    opacity: .8;
     color: #66FCF1;
 }
 
