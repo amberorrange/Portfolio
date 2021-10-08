@@ -229,6 +229,7 @@ label {
     margin-bottom: 50px;
     text-align: center;
     font-family: Roboto;
+    color: white;
 }
 
 .project-div {
@@ -248,7 +249,7 @@ label {
 }
 
 .card {
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    box-shadow: 0 6px 10px #66FCF1, 0 0 6px #66FCF1;
     overflow: hidden;
 }
 
@@ -287,8 +288,8 @@ a {
 #about-img {
     width: 100%;  
     border-radius: 5px;
-    outline-color: rgba(0, 0, 0, 0.452);outline-style: solid;
-    outline-width: 1px;
+    outline-color: white;outline-style: solid;
+    outline-width: .5px;
     margin-bottom: 30px;
 }
 
@@ -296,16 +297,19 @@ a {
     text-align: center;
     margin-bottom: 50px;
     font-family: Roboto;
+    color: white;
 }
 
 #about-para-1 {
     font-family: Roboto;
     font-weight: bold;
+    color: white;
 }
 
 
 #about-para-2 {
     font-family: Roboto;
     font-weight: bold;
+    color: white
 }
 
