@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 @font-face {
     font-family: Roboto;
     src: url("Fonts/Roboto/Roboto-ThinItalic.ttf");     
@@ -29,7 +21,12 @@
 
 
 body {
-  
+    background: #FBE59A;
+    background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
+    background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
+    background: radial-gradient(to bottom, #FBE59A, #E3E4B8);
+    
+
 }
 
 
@@ -39,27 +36,29 @@ body {
 #Name {
     font-family: Roboto;
     font-weight: 100;
-    font-size: 70px;
-    color: black;
+    font-size: 73px;
+    color: #493548;
 }
 
 #Full-Stack {
     font-family: Roboto;
-    color: black;
+    color: #6A8D92;
+    font-size: 40px;
 }
 
-#resume-button{
+/* #resume-button{
     font-family: Roboto;
-    border-color:black;
+    border-color:#493548;
     border-radius: 10px;
     font-size: 20px;
-    color:black;
+    color: white;
+    background-color: #493548;
     
-}
+} */
 
-#resume-button:hover {
-    color: #66FCF1;
-}
+/* #resume-button:hover {
+    color: ;
+} */
 
 
 
@@ -178,7 +177,7 @@ body {
     margin-top: 30px;
     padding-top: 120px;
     font-family: Roboto;
-    color: white;
+    color: #493548;
 
 }
 
@@ -201,7 +200,7 @@ body {
 
 label {
     margin-bottom: 10px;
-    color: white;
+    color: #493548
 }
 
 .submit-btn {
@@ -210,12 +209,12 @@ label {
     height: 35px;
     width: 100px;
     color: white;
-    border-color:#66FCF1;
-    background: transparent;
+    border-color:#493548;
+    background: #493548;
 }
 
 .submit-btn:hover {
-    color: #66FCF1;
+    color: #493548;
 }
 
 
@@ -237,7 +236,7 @@ label {
     margin-bottom: 50px;
     text-align: center;
     font-family: Roboto;
-    color: white;
+    color: #493548;
 }
 
 .project-div {
@@ -257,7 +256,7 @@ label {
 }
 
 .card {
-    box-shadow: 0 6px 10px #66FCF1, 0 0 6px #66FCF1;
+    box-shadow: 0 6px 10px #493548, 0 0 6px #493548;
     overflow: hidden;
 }
 
@@ -296,30 +295,30 @@ a {
 #about-img {
     width: 100%;  
     border-radius: 5px;
-    outline-color: white;outline-style: solid;
+    /* outline-color: ;outline-style: ; */
     outline-width: .5px;
     margin-bottom: 30px;
     /* box-shadow: 6px 6px 8px #66FCF1, 6px 6px 6px #66FCF1; */
-    box-shadow: 10px 5px 5px#66FCF1;
+    box-shadow: 10px 5px 5px #493548;
 }
 
 #about-header {
     text-align: center;
     margin-bottom: 50px;
     font-family: Roboto;
-    color: white;
+    color:#493548;
 }
 
 #about-para-1 {
     font-family: Roboto;
     font-weight: bold;
-    color: white;
+    color:#493548;
 }
 
 
 #about-para-2 {
     font-family: Roboto;
     font-weight: bold;
-    color: white
+    color: #493548;
 }
 
