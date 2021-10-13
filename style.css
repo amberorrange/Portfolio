@@ -19,12 +19,20 @@
 }
 
 
+.container-fluid { 
+    
+}
+
+.max-width {
+    max-width: 1000px;
+}
+
+
 
 body {
     background: #FBE59A;
     background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
     background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
-    background: radial-gradient(to bottom, #FBE59A, #E3E4B8);
 }
 
 
@@ -42,19 +50,7 @@ body {
     font-size: 40px;
 }
 
-/* #resume-button{
-    font-family: Roboto;
-    border-color:#493548;
-    border-radius: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: #493548;
-    
-} */
 
-/* #resume-button:hover {
-    color: ;
-} */
 
 
 
@@ -194,6 +190,7 @@ body {
     border-width: 1px;
     border-style: solid;
     margin-bottom: 10px;
+    font-weight: 100;
 }
 
 label {
@@ -211,6 +208,7 @@ label {
     border-color:#493548;
     background: #493548;
     opacity: .8;
+    font-weight: 100;
 }
 
 .submit-btn:hover {
@@ -221,6 +219,8 @@ label {
 .form-control:focus{
     box-shadow: 0 1px 1px #1F2833 inset, 0 0 8px #1F2833;
     outline: 0 none;
+    text-decoration: none;
+
 }
 
 
