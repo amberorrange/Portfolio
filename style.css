@@ -25,11 +25,7 @@ body {
     background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
     background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
     background: radial-gradient(to bottom, #FBE59A, #E3E4B8);
-    
-
 }
-
-
 
 
 
@@ -72,27 +68,27 @@ body {
 
 
 .nav-link {
-    color: white;
+    color: #E3E4B8;
     margin-left: 10px;
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    text-decoration-color: #66FCF1;
-    color:#66FCF1;
+    text-decoration-color: #E3E4B8;
+    color: #E3E4B8;
 }
 
 .navbar-brand:hover {
     text-decoration: underline;
-    text-decoration-color:#66FCF1;
-    color: #66FCF1;
+    text-decoration-color: #E3E4B8;
+    color: #E3E4B8;
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
 }
 
 
 .navbar-brand { 
-    color: white;
+    color: #E3E4B8;
     margin-left: 35px;
 }
 
@@ -149,17 +145,17 @@ body {
 
 .bi-linkedin:hover {
     opacity: .8;
-    color: #66FCF1;
+    color: #493548;
 }
 
 .bi-envelope:hover {
     opacity: .8;
-    color: #66FCF1;
+    color: #493548;
 }
 
 .bi-github:hover {
     opacity: .8;
-    color: #66FCF1;
+    color: #493548;
 }
 
 
