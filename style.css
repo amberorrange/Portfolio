@@ -64,6 +64,7 @@ body {
 
     background-color: black;
     font-family: Roboto;
+    font-weight: 100;
 }
 
 
@@ -185,32 +186,35 @@ body {
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .form-control {
     border-color:white;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
+    margin-bottom: 10px;
 }
 
 label {
     margin-bottom: 10px;
-    color: #493548
+    color: #493548;
+    font-weight: bold;
 }
 
 .submit-btn {
     border-radius: 20px;
-    border-width: 2px;
+    
     height: 35px;
     width: 100px;
     color: white;
     border-color:#493548;
     background: #493548;
+    opacity: .8;
 }
 
 .submit-btn:hover {
-    color: #493548;
+    color: #E3E4B8;
 }
 
 
