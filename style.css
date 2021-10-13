@@ -21,6 +21,9 @@
 
 .container-fluid { 
     
+    max-width: 1500px;
+width: 100%;
+
 }
 
 .max-width {
@@ -165,6 +168,10 @@ body {
 
 /* Contact Form */
 
+.contact-div {
+    margin: auto;
+}
+
 #Contact {
     text-align: center;
     margin-top: 30px;
@@ -175,8 +182,8 @@ body {
 }
 
 #contact-form {
-    margin-left: 15%;
-    margin-right: 15%;  
+    /* margin-left: 15%;
+    margin-right: 15%;   */
     font-family: Roboto; 
 
 }
