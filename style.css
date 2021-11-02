@@ -149,6 +149,9 @@
 /* Contact Form */
 .contact-div {
     margin: auto;
+    background: #FBE59A;
+    background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
+    background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
 }
 
 #Contact {
@@ -271,11 +274,7 @@ a {
 /* About Me */
 #about-me{
     margin-left: 15%;
-    margin-right: 15%;
-    background: #FBE59A;
-    background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
-    background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
-   
+    margin-right: 15%; 
 }
 
 #about-img {
