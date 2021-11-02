@@ -28,11 +28,11 @@
 }
 
 
-/* body {
+body {
     background: #FBE59A;
     background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
     background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
-} */
+}
 
 
 
@@ -151,11 +151,7 @@
     margin: auto;
 }
 
-.contact-background {
-    background: #FBE59A;
-    background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
-    background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
-}
+
 
 #Contact {
     text-align: center;
