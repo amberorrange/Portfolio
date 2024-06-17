@@ -1,306 +1,263 @@
 @font-face {
-    font-family: Roboto;
-    src: url("Fonts/Roboto/Roboto-ThinItalic.ttf");     
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-ThinItalic.ttf");
 }
-
 
 @font-face {
-    font-family: Roboto;
-    src: url("Fonts/Roboto/Roboto-LightItalic.ttf");
-    font-weight: 100;
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-LightItalic.ttf");
+  font-weight: 100;
 }
-
 
 @font-face {
-    font-family: Roboto;
-    src: url("Fonts/Roboto/Roboto-Italic.ttf");
-    font-weight: bold;
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Italic.ttf");
+  font-weight: bold;
 }
 
-
-.container-fluid { 
-    max-width: 1500px;
-    width: 100%;
+.container-fluid {
+  max-width: 1500px;
+  width: 100%;
 }
 
 .max-width {
-    max-width: 1000px;
+  max-width: 1000px;
 }
-
 
 body {
-    background: #FBE59A;
-    background: -webkit-radial-gradient(top, #FBE59A, #E3E4B8);
-    background: -moz-radial-gradient(top, #FBE59A, #E3E4B8);
+  background: #fbe59a;
+  background: -webkit-radial-gradient(top, #fbe59a, #e3e4b8);
+  background: -moz-radial-gradient(top, #fbe59a, #e3e4b8);
 }
-
-
-
 
 /* Navbar */
 .navbar-custom {
-    background-color: black;
-    font-family: Roboto;
-    font-weight: 100;
+  background-color: black;
+  font-family: Roboto;
+  font-weight: 100;
 }
 
-
 .nav-link {
-    color: #E3E4B8;
-    margin-left: 10px;
+  color: #e3e4b8;
+  margin-left: 10px;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-color: #E3E4B8;
-    color: #E3E4B8;
+  text-decoration: underline;
+  text-decoration-color: #e3e4b8;
+  color: #e3e4b8;
 }
 
 .navbar-brand:hover {
-    text-decoration: underline;
-    text-decoration-color: #E3E4B8;
-    color: #E3E4B8;
-    text-decoration-style: solid;
-    text-decoration-thickness: 1px;
+  text-decoration: underline;
+  text-decoration-color: #e3e4b8;
+  color: #e3e4b8;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
 }
 
-
-.navbar-brand { 
-    color: #E3E4B8;
-    margin-left: 35px;
+.navbar-brand {
+  color: #e3e4b8;
+  margin-left: 35px;
 }
 
 .navbar-nav {
-    margin-right: 100px;
+  margin-right: 100px;
 }
-
-
 
 /* Homepage */
 #Home {
-   margin-left: 15%;
-   margin-right: 15%;
-   padding-top: 200px;
-   margin-bottom: 270px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 200px;
+  margin-bottom: 270px;
 }
 
-
 #Name {
-    font-family: Roboto;
-    font-weight: 100;
-    font-size: 73px;
-    color: #493548;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 73px;
+  color: #493548;
 }
 
 #Full-Stack {
-    font-family: Roboto;
-    color: #6A8D92;
-    font-size: 40px;
+  font-family: Roboto;
+  color: #6a8d92;
+  font-size: 40px;
 }
-
-
-
-
 
 /* Icons */
 .bi-github {
-    color:white;
-    font-size: 40px;  
+  color: white;
+  font-size: 40px;
 }
 
 .bi-linkedin {
-    font-size: 40px;
-    color: white;
-    margin-left: 30px;
+  font-size: 40px;
+  color: white;
+  margin-left: 30px;
 }
 
 .bi-envelope {
-    font-size: 40px;
-    color: white;
-    margin-left: 30px;
-} 
+  font-size: 40px;
+  color: white;
+  margin-left: 30px;
+}
 
 .contact-icons {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .bi-linkedin:hover {
-    opacity: .8;
-    color: #493548;
+  opacity: 0.8;
+  color: #493548;
 }
 
 .bi-envelope:hover {
-    opacity: .8;
-    color: #493548;
+  opacity: 0.8;
+  color: #493548;
 }
 
 .bi-github:hover {
-    opacity: .8;
-    color: #493548;
+  opacity: 0.8;
+  color: #493548;
 }
-
-
-
-
-
 
 /* Contact Form */
 .contact-div {
-    margin: auto;
+  margin: auto;
 }
 
-
-
 #Contact {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 120px;
-    font-family: Roboto;
-    color: #493548;
-
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 120px;
+  font-family: Roboto;
+  color: #493548;
 }
 
 #contact-form {
-    font-family: Roboto; 
-
+  font-family: Roboto;
 }
 
 .form-group {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .form-control {
-    border-color:white;
-    border-width: 1px;
-    border-style: solid;
-    margin-bottom: 10px;
-    font-weight: 100;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+  font-weight: 100;
 }
 
 label {
-    margin-bottom: 10px;
-    color: #493548;
-    font-weight: bold;
+  margin-bottom: 10px;
+  color: #493548;
+  font-weight: bold;
 }
 
 .submit-btn {
-    border-radius: 20px;
-    height: 35px;
-    width: 100px;
-    color: white;
-    border-color:#493548;
-    background: #493548;
-    opacity: .8;
-    font-weight: 100;
+  border-radius: 20px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  border-color: #493548;
+  background: #493548;
+  opacity: 0.8;
+  font-weight: 100;
 }
 
 .submit-btn:hover {
-    color: #E3E4B8;
+  color: #e3e4b8;
 }
 
-
-.form-control:focus{
-    box-shadow: 0 1px 1px #1F2833 inset, 0 0 8px #1F2833;
-    outline: 0 none;
-    text-decoration: none;
-
+.form-control:focus {
+  box-shadow: 0 1px 1px #1f2833 inset, 0 0 8px #1f2833;
+  outline: 0 none;
+  text-decoration: none;
 }
-
-
-
-
-
-
 
 /* Project */
 #Project {
-    margin-top: 30px;
-    padding-top: 120px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: Roboto;
-    color: #493548;
+  margin-top: 30px;
+  padding-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Roboto;
+  color: #493548;
 }
 
 .project-div {
-    margin-left: 15%;
-    margin-right: 15%;
-
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #video-link {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
-
 #video-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card {
-    box-shadow: 0 6px 10px #493548, 0 0 6px #493548;
-    overflow: hidden;
+  box-shadow: 0 6px 10px #493548, 0 0 6px #493548;
+  overflow: hidden;
 }
 
-.card-img-top:hover{
-    transform: scale(1.01);
-    transition: transform 1s ease;
-  
+.card-img-top:hover {
+  transform: scale(1.01);
+  transition: transform 1s ease;
 }
 
 .card-img-top {
-    transform: scale(1.0);
-    transition:  transform 1s ease;
+  transform: scale(1);
+  transition: transform 1s ease;
 }
 
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card-text {
-    font-family: Roboto;
-    font-weight: bold;
+  font-family: Roboto;
+  font-weight: bold;
 }
 
-
-
-
-
 /* About Me */
-#about-me{
-    margin-left: 15%;
-    margin-right: 15%; 
+#about-me {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #about-img {
-    width: 100%;  
-    border-radius: 5px;
-    outline-width: .5px;
-    margin-bottom: 30px;
-    box-shadow: 10px 5px 5px #493548;
+  width: 100%;
+  border-radius: 5px;
+  outline-width: 0.5px;
+  margin-bottom: 30px;
+  box-shadow: 10px 5px 5px #493548;
 }
 
 #about-header {
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: Roboto;
-    color:#493548;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  color: #493548;
 }
 
 #about-para-1 {
-    font-family: Roboto;
-    font-weight: bold;
-    color:#493548;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #493548;
 }
-
 
 #about-para-2 {
-    font-family: Roboto;
-    font-weight: bold;
-    color: #493548;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #493548;
 }
-
